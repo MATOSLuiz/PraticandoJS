@@ -96,3 +96,89 @@ console.log(students[1])
 
 console.log(a)
 var a = 1
+
+//Protoype
+
+//protoype-based language
+//prototype chain
+//__photo__
+
+// O JavaScript possui uma característica chamada Prototype, que é uma série de funcionalidades e atributos que já existem nativamente em diversos tipos de dados, que são lidados como objetos.
+
+//Type conversion vs Type coersion
+
+// Changing from one data type to other
+
+// console.log(Number('9') + 6)
+
+//Manipulating strings and numbers 
+
+// transform string into number and number into string
+
+// let string = "123"
+// let number =  123
+
+// console.log(Number(string))
+// console.log(String(number))
+
+// Count how many characters are in a word and how many digits in a number
+
+// let word = "Luiz"
+// let numero = 457
+
+// console.log(word.length)
+// console.log(String(numero).length)
+
+//transform a broken number to 2 decimal places and change comma to dot
+
+let number = 542.5874
+console.log(number.toFixed(2).replace(".", ","))
+
+//convert lowercase letters to uppercase. do the opposite
+
+let word = "Programar é lindo"
+console.log(word.toLowerCase().toUpperCase())
+
+//Separate a text that has spaces, in a new array where each text is a position of the array. After that, turn the array into a text separated by _
+
+let frase = "O amor é lindo"
+let fraseseparada = frase.split(" ")
+console.log(fraseseparada.join("_").toUpperCase())
+
+// Make sure the text contains the word "amor"
+
+console.log(frase.includes("amor"))
+
+// Create array with constructor
+
+let myArray = new Array('l', 'u', 'i', 'z')
+console.log(myArray)
+
+// contain elements from one array
+
+console.log(['l', 'a', 'w'].length)
+
+// convert one caracters chain in elements from one array
+
+let palavra = "pãozinho"
+
+console.log(Array.from(palavra))
+
+//MANIPULANDO ARRAYS
+let techs = ["html", "css", "bootstrap"]
+//Remover um do fim 
+techs.pop()
+//Remover do começo
+techs.shift()
+// Adicionar no começo
+techs.unshift("Js")
+// Adicionar no fim
+techs.push("react")
+//pegar somente alguns elementos do array
+techs.slice(1,2)
+//remover 1 ou mais items em qualquer posição do array
+techs.splice(1,1)
+//encontrar a posição de um elemento no array
+let index = techs.indexOf('css')
+
+console.log(index)
