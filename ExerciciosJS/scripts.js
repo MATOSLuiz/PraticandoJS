@@ -40,3 +40,44 @@ console.log(getScore(82))
 console.log(getScore(72))
 console.log(getScore(62))
 console.log(getScore(15))
+
+// Crie um objeto que possuirá 2 propriedades, ambas do tipo array:
+//     * receitas: [] 
+//     * despesas: []
+// Agora, crie uma função que irá calcular o total de receitas e 
+// despesas e irá mostrar uma mensagem se a família está com 
+// saldo positivo ou negativo, seguido do valor do saldo.
+
+let familyBalance = {
+    revenues: [1000, 5000],
+    expenditures: [575, 125, 5000]
+}
+
+function sum(array) {
+    let total = 0;
+
+    for( let value of array) {
+        total += value
+    }
+
+    return total
+}
+
+function calculateBalance() {
+    const calculateRevenues = sum(familyBalance.revenues)
+    const calculateExpenditures = sum(familyBalance.expenditures)
+
+    const total = calculateRevenues - calculateExpenditures
+
+    const itsOk = total >= 0
+
+    let balanceText = "Negativo"
+
+    if (itsOk) {
+        balanceText = "Positivo"
+    }
+
+    console.log(`Seu saldo é ${balanceText}: ${total}`)
+}
+
+calculateBalance()
