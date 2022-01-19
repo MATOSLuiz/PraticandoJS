@@ -81,3 +81,52 @@ function calculateBalance() {
 }
 
 calculateBalance()
+
+
+//Crie uma função que receba uma string em celsius ou fahrenheit
+//e faça a transformação de uma unidade para outra 
+//C = (F - 32) * 5/9 
+//F = C * 9/5 + 32
+
+//trasnform('50F)
+
+function convertCelsius(degree) {
+    const celsiusExists = degree.toUpperCase().includes('C')
+    const fahrenheitExists = degree.toUpperCase().includes('F')
+
+    //fluxo de erro
+    if(!celsiusExists && !fahrenheitExists) {
+        throw new Error('Grau não identificado')
+    }
+
+    // fluxo ideal Fahrenheit to Celsius
+    let updatedDegree = Number(degree.toUpperCase().replace("F",""));
+    let formula =  fahrenheit => (fahrenheit - 32) * 5/9
+    let degreeSign = 'C'
+
+    //fluxo alternativo Celsius to Fahrenheit
+    if(celsiusExists) {
+         updatedDegree = Number(degree.toUpperCase().replace("C",""));
+         formula =  celcius => celcius * 9/5 + 32  
+         degreeSign = 'F'  
+    }
+
+    return formula(updatedDegree) + degreeSign
+}
+
+try {
+    console.log(convertCelsius('50C'))
+} catch(error) {
+    console.log(error.message)
+}
+
+/* 
+    ∞ Buscando e contando dados em Arrays ∞
+    Baseado no Array de Livros por Categoria abaixo, faça os seguintes desafios
+        • Contar o número de categorias e o número de livros em cada categoria
+        • Contar o número de autores
+        • Mostrar livros do autor Auguto Cury
+        • Transformar a função acima em uma função que irá receber o nome do autor e devolver os livros desse autor.
+*/
+
+
