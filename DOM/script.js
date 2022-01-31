@@ -1,22 +1,19 @@
-//getElementbyId(element)
-//getElementsByClassName(HTMLCollection)
-//getElementsByTagName(HTMLCollection)
+// Manipular conteudos
+// textContent
+// innerText
+// innerHTML
+// value
 
-const element = document.getElementsByTagName('h1')
+const element = document.querySelector('input')
 
-console.log(element)
+element.value = "mudando o valor do input"
 
-//Seletores
+//Manipular atributos
 
-//querySelector(element)
-//querySelectorAll(NodeList)
+const header = document.querySelector('header')
+header.setAttribute('id', 'cabeçalho')
 
-const selector = document.querySelectorAll('paragrafo')
+header.removeAttribute('id')
 
-console.log(selector)
-
-//Qual utilizar?
-
-// Depende da sua situação
 
 
