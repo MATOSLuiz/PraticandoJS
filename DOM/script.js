@@ -1,19 +1,18 @@
-// Manipular conteudos
-// textContent
-// innerText
-// innerHTML
-// value
+// Estilos
 
-const element = document.querySelector('input')
+const element = document.querySelector('body')
 
-element.value = "mudando o valor do input"
+element.style.backgroundColor = '#333'
 
-//Manipular atributos
 
-const header = document.querySelector('header')
-header.setAttribute('id', 'cabeçalho')
+//classlist
 
-header.removeAttribute('id')
+element.classList.add('active')
 
+element.classList.remove('active')
+
+element.classList.toggle('active')
+
+element.classList.add('off')
 
 
