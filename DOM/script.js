@@ -1,27 +1,20 @@
-// Navegando pelos elementos
+// Criando e adicionando elmentos
 
-// parentNode
-// parentElement
+// createElement
+const div = document.createElement('div')
+
+div.innerHTML = '<h1>BEM VINDO</h1>'
 
 const body = document.querySelector('body')
 
-console.log(body.parentElement)
-console.log(body.parentNode)
+// (final)append (começo)prepend
 
-// pegando elementos filhos
+// body.append(div)
+body.prepend(div)
 
-// childNodes children
-// firstChild firstElementChild
-// lastChild lasElementChild
 
-const element = document.querySelector('header')
+// insertBefore
 
-console.log(element.lastElementChild)
+const header = document.querySelector('header')
 
-// buscando irmãos 
-
-// nextSibling nextElementSibling
-// previousSibling nextElementSibling
-
-console.log(element.nextElementSibling)
-console.log(element.previousElementSibling)
+body.insertBefore(div, header.nextSibling)
