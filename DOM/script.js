@@ -1,20 +1,34 @@
-// Criando e adicionando elmentos
+// Eventos
 
-// createElement
-const div = document.createElement('div')
+function alertaClick() {
+    alert('Você Clicou')
+}
 
-div.innerHTML = '<h1>BEM VINDO</h1>'
+function alertaMouse() {
+    alert('Você passou o mouse')
+}
 
-const body = document.querySelector('body')
+// Eventos de teclado
 
-// (final)append (começo)prepend
+const input = document.querySelector('input')
 
-// body.append(div)
-body.prepend(div)
+input.onkeydown = function() {
+    console.log('Hi')
+}
 
+//Adicionando eventos via JS
 
-// insertBefore
+const h2 = document.querySelector('h2')
 
-const header = document.querySelector('header')
+h2.addEventListener('click', alertaClick)
+input.addEventListener('focus', function() {
+    console.log('to no input')
+})
 
-body.insertBefore(div, header.nextSibling)
+// argumento Event
+
+const evento = document.querySelector('input')
+
+evento.onkeydown = function(event) {
+    console.log(event.currentTarget.value)
+}
