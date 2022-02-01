@@ -1,34 +1,16 @@
-// Eventos
+const button = document.getElementById('openModal')
+const modal = document.getElementById('dialog')
 
-function alertaClick() {
-    alert('Você Clicou')
+button.addEventListener('click', abrir)
+
+function abrir() {
+    modal.removeAttribute('class')
 }
 
-function alertaMouse() {
-    alert('Você passou o mouse')
-}
+document.addEventListener('keydown', function(event){
+    const isEsc = event.key === "Escape"
 
-// Eventos de teclado
-
-const input = document.querySelector('input')
-
-input.onkeydown = function() {
-    console.log('Hi')
-}
-
-//Adicionando eventos via JS
-
-const h2 = document.querySelector('h2')
-
-h2.addEventListener('click', alertaClick)
-input.addEventListener('focus', function() {
-    console.log('to no input')
+    if(isEsc) {
+        modal.setAttribute('class', 'invisible')
+    }
 })
-
-// argumento Event
-
-const evento = document.querySelector('input')
-
-evento.onkeydown = function(event) {
-    console.log(event.currentTarget.value)
-}
