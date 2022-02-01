@@ -1,18 +1,27 @@
-// Estilos
+// Navegando pelos elementos
 
-const element = document.querySelector('body')
+// parentNode
+// parentElement
 
-element.style.backgroundColor = '#333'
+const body = document.querySelector('body')
 
+console.log(body.parentElement)
+console.log(body.parentNode)
 
-//classlist
+// pegando elementos filhos
 
-element.classList.add('active')
+// childNodes children
+// firstChild firstElementChild
+// lastChild lasElementChild
 
-element.classList.remove('active')
+const element = document.querySelector('header')
 
-element.classList.toggle('active')
+console.log(element.lastElementChild)
 
-element.classList.add('off')
+// buscando irmãos 
 
+// nextSibling nextElementSibling
+// previousSibling nextElementSibling
 
+console.log(element.nextElementSibling)
+console.log(element.previousElementSibling)
