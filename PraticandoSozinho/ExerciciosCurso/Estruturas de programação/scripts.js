@@ -55,6 +55,21 @@ if(velocidade <= 80) {
     console.log("Você foi multado, tudo já está registrado no Dentran!")
 }
 
+console.log("\n");
+console.log("\n");
+console.log("\n");
+
+//Ex 11 dirigir
+
+let cnh = false;
+
+if(idade >= 18 && cnh == true) {
+    console.log("Você pode dirigir");
+} else if(idade >= 18 && cnh == false) {
+    console.log("Você pode tirar sua habilitação, mas por enquanto não pode dirigir");
+} else {
+    console.log("Você ainda não tem idade para dirigir!");
+}
 
 
 
