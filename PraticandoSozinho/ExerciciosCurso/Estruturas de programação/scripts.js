@@ -84,5 +84,16 @@ while(num <= 10) {
     num += 1
 }
 
+console.log("\n");
+console.log("\n");
+console.log("\n");
+
+//Ex 13 for 100-50
+
+for(i = 100; i >= 50; i--) {
+    console.log(i);
+}
+
+
 
 
