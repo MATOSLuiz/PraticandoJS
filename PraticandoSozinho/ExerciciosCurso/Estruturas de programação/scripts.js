@@ -71,5 +71,18 @@ if(idade >= 18 && cnh == true) {
     console.log("Você ainda não tem idade para dirigir!");
 }
 
+console.log("\n");
+console.log("\n");
+console.log("\n");
+
+//Ex 12 while 0-10
+
+let num = 0;
+
+while(num <= 10) {
+    console.log(num);
+    num += 1
+}
+
 
 
