@@ -94,6 +94,34 @@ for(i = 100; i >= 50; i--) {
     console.log(i);
 }
 
+console.log("\n");
+console.log("\n");
+console.log("\n");
 
+//Ex 14 par e impar
 
+for(number = 0; number <= 50; number++){
+    if(number % 2 == 0) {
+        console.log(`O número ${number} é par`);
+    } else {
+        console.log(`O número ${number} é impar`);
+    }
+}
+
+//Ex 15 numeros primos
+
+let numero = 10;
+let divisoes = 0;
+
+for(x = 1; x <= numero; x++) {
+    if(numero % x == 0) {
+        divisoes++;
+    }
+}
+
+if(divisoes == 2) {
+    console.log(`O número ${numero} é primo!`);
+} else {
+    console.log(`O número ${numero} não é primo!`);
+}
 
