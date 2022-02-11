@@ -37,3 +37,11 @@ console.log("\n");
 console.log("\n");
 console.log("\n");
 
+//Ex 9 Math 2 3 18 expoente 2
+
+console.log(` 2 ao quadrado é ${Math.pow(2,2)} 3 ao quadrado é ${Math.pow(3,2)} 18 ao quadrado é ${Math.pow(18,2)}`);
+
+console.log("\n");
+console.log("\n");
+console.log("\n");
+
