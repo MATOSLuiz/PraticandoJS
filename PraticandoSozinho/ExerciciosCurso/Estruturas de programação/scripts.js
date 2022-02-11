@@ -45,3 +45,16 @@ console.log("\n");
 console.log("\n");
 console.log("\n");
 
+//Ex 10 velocidade permitida
+
+let velocidade = 50;
+
+if(velocidade <= 80) {
+    console.log("Você não levou multa")
+} else {
+    console.log("Você foi multado, tudo já está registrado no Dentran!")
+}
+
+
+
+
