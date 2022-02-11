@@ -25,3 +25,15 @@ console.log("\n");
 console.log("\n");
 console.log("\n");
 
+//Ex 8 constante com if
+
+const Nome = "Luiz";
+
+if(Nome == "Luiz"){
+    console.log(`Olá ${Nome}, Bem vindo!`)
+}
+
+console.log("\n");
+console.log("\n");
+console.log("\n");
+
