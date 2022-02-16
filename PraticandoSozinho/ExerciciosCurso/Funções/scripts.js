@@ -14,3 +14,11 @@ function mostraIdade(idade) {
 
 mostraIdade(15);
 
+// EX 18 soma de dois numeros
+
+function soma(a, b) {
+    return a + b;
+}
+
+console.log(soma(20,25));
+
