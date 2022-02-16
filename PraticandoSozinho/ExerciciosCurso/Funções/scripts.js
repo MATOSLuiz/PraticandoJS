@@ -58,3 +58,22 @@ autoEscola(16);
 
 autoEscola(22);
 
+
+//Ex 21 mostrar tipo de dado
+
+
+function dataType(dado) {
+    if(typeof dado === 'boolean') {
+        console.log("Este dado é um boolean");
+    } else if(typeof dado === 'number') {
+        console.log("Este dado é um Number");
+    } else if(typeof dado === 'string') {
+        console.log("Este dado é uma string");
+    }
+
+}
+
+dataType(5);
+dataType("Testando");
+dataType(false);
+
