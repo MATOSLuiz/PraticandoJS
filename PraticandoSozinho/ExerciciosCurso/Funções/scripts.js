@@ -77,3 +77,11 @@ dataType(5);
 dataType("Testando");
 dataType(false);
 
+//eX 22 NUMERO Negativo RETORNA POSITIVO
+
+function numeroPositivo(numNegativo) {
+    return Math.abs(numNegativo);
+}
+
+console.log(numeroPositivo(-5));
+
