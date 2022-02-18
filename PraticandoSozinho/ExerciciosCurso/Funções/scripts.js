@@ -85,3 +85,15 @@ function numeroPositivo(numNegativo) {
 
 console.log(numeroPositivo(-5));
 
+//EX 23 checar tamanho texto
+
+function checaTexto(texto) {
+    if(texto.length > 10) {
+        console.log("Esse texto é muito longo!");
+    } else {
+        console.log("Texto dentro do limite!");
+    }
+}
+
+checaTexto("Meu nome é luiz")
+checaTexto("Oi")
