@@ -106,3 +106,15 @@ function potencia(base, expoente) {
 }
 
 console.log(potencia(3,4));
+
+//Ex 25 loop com numeros pares
+
+function imprimePar(number) {
+    for(let i = number; i >= 0; i--) {
+        if(i % 2 == 0) {
+            console.log(i);
+        }
+    }
+}
+
+console.log(imprimePar(10));
