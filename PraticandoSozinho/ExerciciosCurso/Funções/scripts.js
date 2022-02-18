@@ -6,6 +6,10 @@ function olaMundo() {
 
 olaMundo();
 
+console.log("\n");
+console.log("\n");
+console.log("\n");
+
 //EX 17 funcao idade
 
 function mostraIdade(idade) {
@@ -14,13 +18,9 @@ function mostraIdade(idade) {
 
 mostraIdade(15);
 
-// EX 18 soma de dois numeros
-
-function soma(a, b) {
-    return a + b;
-}
-
-console.log(soma(20,25));
+console.log("\n");
+console.log("\n");
+console.log("\n");
 
 // EX 18 soma de dois numeros
 
@@ -29,6 +29,10 @@ function soma(a, b) {
 }
 
 console.log(soma(20,25));
+
+console.log("\n");
+console.log("\n");
+console.log("\n");
 
 // //EX 19 numero aleatorio
 
@@ -41,6 +45,10 @@ console.log(numeroAleatorio(50));
 console.log(numeroAleatorio(100));
 
 console.log(numeroAleatorio(500));
+
+console.log("\n");
+console.log("\n");
+console.log("\n");
 
 //ex 20 autoescola
 
@@ -57,6 +65,10 @@ autoEscola(18);
 autoEscola(16);
 
 autoEscola(22);
+
+console.log("\n");
+console.log("\n");
+console.log("\n");
 
 
 //Ex 21 mostrar tipo de dado
@@ -77,6 +89,10 @@ dataType(5);
 dataType("Testando");
 dataType(false);
 
+console.log("\n");
+console.log("\n");
+console.log("\n");
+
 //eX 22 NUMERO Negativo RETORNA POSITIVO
 
 function numeroPositivo(numNegativo) {
@@ -84,6 +100,10 @@ function numeroPositivo(numNegativo) {
 }
 
 console.log(numeroPositivo(-5));
+
+console.log("\n");
+console.log("\n");
+console.log("\n");
 
 //EX 23 checar tamanho texto
 
@@ -98,6 +118,10 @@ function checaTexto(texto) {
 checaTexto("Meu nome é luiz")
 checaTexto("Oi")
 
+console.log("\n");
+console.log("\n");
+console.log("\n");
+
 // Ex 24 potencia (duas maneiras de resolver)
 
 function potencia(base, expoente) {
@@ -106,6 +130,10 @@ function potencia(base, expoente) {
 }
 
 console.log(potencia(3,4));
+
+console.log("\n");
+console.log("\n");
+console.log("\n");
 
 //Ex 25 loop com numeros pares
 
