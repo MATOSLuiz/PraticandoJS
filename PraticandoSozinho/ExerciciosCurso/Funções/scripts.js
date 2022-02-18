@@ -97,3 +97,12 @@ function checaTexto(texto) {
 
 checaTexto("Meu nome é luiz")
 checaTexto("Oi")
+
+// Ex 24 potencia (duas maneiras de resolver)
+
+function potencia(base, expoente) {
+    // return Math.pow(base,expoente);
+    return base ** expoente;
+}
+
+console.log(potencia(3,4));
