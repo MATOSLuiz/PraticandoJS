@@ -22,7 +22,7 @@ console.log(nomeCompleto.length);
 console.log("\n");
 console.log("\n");
 
-// Exercicio 28 
+// Exercicio 28-29
 
 const onibus = {
     rodas: 8,
@@ -33,6 +33,19 @@ const onibus = {
 console.log(onibus.rodas)
 console.log(onibus.limitePassageiros)
 console.log(onibus.portas)
+
+console.log("\n");
+console.log("\n");
+
+//29
+
+onibus.janelas = 20;
+
+delete onibus.rodas;
+
+console.log(onibus);
+console.log(onibus.janelas);
+
 
 
 
