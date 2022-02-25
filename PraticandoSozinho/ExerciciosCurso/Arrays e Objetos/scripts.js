@@ -1,4 +1,4 @@
-//Exercicio 27
+//Exercicio 26 
 
 let amigos = ["Gabriel Viccari", "Darlan", "Victor", "Mesaque", "Lucas"];
 
@@ -8,6 +8,7 @@ console.log(amigos[3]);
 
 console.log("\n");
 console.log("\n");
+
 
 
 
