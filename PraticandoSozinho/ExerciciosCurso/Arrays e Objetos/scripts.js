@@ -46,6 +46,16 @@ delete onibus.rodas;
 console.log(onibus);
 console.log(onibus.janelas);
 
+//Exercicio 30 includes
+
+let nomes = ["Luiz", "Claudomiro", "Estefane","Estela", "Graziela"];
+
+if(nomes.includes("Luiz")) {
+    console.log("O nome Luiz Está incluso no Array!");
+} else {
+    console.log("Nome não está incluso no Array")
+}
+
 
 
 
