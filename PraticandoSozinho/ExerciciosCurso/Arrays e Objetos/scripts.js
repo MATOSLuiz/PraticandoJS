@@ -22,4 +22,17 @@ console.log(nomeCompleto.length);
 console.log("\n");
 console.log("\n");
 
+// Exercicio 28 
+
+const onibus = {
+    rodas: 8,
+    limitePassageiros: 40,
+    portas: 2
+}
+
+console.log(onibus.rodas)
+console.log(onibus.limitePassageiros)
+console.log(onibus.portas)
+
+
 
