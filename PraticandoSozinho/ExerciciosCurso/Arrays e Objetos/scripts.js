@@ -10,5 +10,16 @@ console.log("\n");
 console.log("\n");
 
 
+//Exercio 27
+
+let nomeSobrenome = ["Luiz", "Matos"];
+
+let nomeCompleto = ["Luiz", "Henrique", "Soares", "Matos"];
+
+console.log(nomeSobrenome.length);
+console.log(nomeCompleto.length);
+
+console.log("\n");
+console.log("\n");
 
 
