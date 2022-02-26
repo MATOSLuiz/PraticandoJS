@@ -87,6 +87,24 @@ for(let i = 0; i < carnes.length; i++){
     console.log(carnes[i]);
 }
 
+console.log("\n");
+console.log("\n");
+
+//Exercicio 33 
+
+const casa = {
+    "Portas": 12,
+    "Banheiros": 5,
+    "Salas": 3
+}
+
+console.log(casa.Banheiros);
+console.log(casa.Portas);
+console.log(casa.Salas);
+
+console.log("\n");
+console.log("\n");
+
 
 
 
