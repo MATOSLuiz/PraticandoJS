@@ -76,5 +76,17 @@ function verificaTamanho(Arr) {
 verificaTamanho(numeroCasa);
 verificaTamanho(bairros);
 
+console.log("\n");
+console.log("\n");
+
+//Exercicio 32
+
+let carnes = ["Ave", "Peixe", "Bovino", "Suíno", "Carneiro"];
+
+for(let i = 0; i < carnes.length; i++){
+    console.log(carnes[i]);
+}
+
+
 
 
