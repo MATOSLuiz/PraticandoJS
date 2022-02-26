@@ -105,6 +105,18 @@ console.log(casa.Salas);
 console.log("\n");
 console.log("\n");
 
+//Exercicio 34 
+
+let frase = "Meu nome é júlia";
+
+arrFrase = frase.split(" ");
+
+for(num = 0; num < arrFrase.length; num++) {
+    console.log(arrFrase[num]);
+}
+
+// Exercicio 35(Separado em repositorio.)
+
 
 
 
