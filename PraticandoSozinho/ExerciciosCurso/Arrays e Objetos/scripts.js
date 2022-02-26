@@ -56,6 +56,25 @@ if(nomes.includes("Luiz")) {
     console.log("Nome não está incluso no Array")
 }
 
+console.log("\n");
+console.log("\n");
+
+//Exercicio 31
+
+let numeroCasa = [125,852,789,500,305,523];
+
+let bairros = ["Medeiros", "Vila Nova", "Iguatemi", "Itália"];
+
+function verificaTamanho(Arr) {
+    if(Arr.length > 5) {
+        console.log("Muitos Elementos!");
+    } else {
+        console.log("Poucos Elementos");
+    }
+}
+
+verificaTamanho(numeroCasa);
+verificaTamanho(bairros);
 
 
 
